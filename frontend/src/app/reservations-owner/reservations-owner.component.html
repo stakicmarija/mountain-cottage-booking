@@ -1,0 +1,40 @@
+<div class="content" id="reservation-container">
+    <div class="requests">
+        <h2 class="title">Neobradjeni zahtevi</h2>
+        @for(r of reservations; track $index){
+        @if(r.approved ==''){
+        <div class="request">
+            <div class="sentBy">
+                <img src="user.jpg" class="circle user">
+                <span class="username">{{r.guest}}</span>
+            </div>
+            <span class="bold">{{r.houseRef?.name}}</span>
+            <span>{{r.houseRef?.place}}</span>
+            <span class="bold">{{r.dateFrom | date:'dd.MM.yyyy.'}} - {{r.dateTo | date:'dd.MM.yyyy.'}}</span>
+            <span>Dodatni zahtev: {{r.description}}</span>
+            @if(r.approved==''){
+            @if(declineId != r._id){
+                <div class="buttons">
+                    <button class="submit" (click)="approve(r._id)">Potvrdi</button>
+                    <button class="giveUp" (click)="toggleDecline(r._id)">Odbij</button>
+                </div>
+            }
+            @else{
+                <textarea name="" id="" rows="4" placeholder="Komentar" [(ngModel)]="reason"></textarea>
+                <div class="buttons">
+                     <button class="submit" (click)="rejectReservation(r._id)">Posalji</button>
+                    <button class="cancelGreen" (click)="toggleDecline(r._id)">Odustani</button>
+                </div>   
+                <span class="error">{{error}}</span>  
+            }}
+        </div>}}
+        
+    </div>
+
+    <hr>
+
+    <div>
+      <full-calendar [options]="calendar"></full-calendar>
+    </div>
+
+</div>

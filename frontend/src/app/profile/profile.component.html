@@ -1,0 +1,55 @@
+<div class="content" >
+    <form id="profile-container" (ngSubmit)="onSubmit()">
+        <div class="wrap-to-center">
+            <div class="picture">
+                <img [src]="user?.profileImage ? 'http://localhost:4000/uploads/' + user?.profileImage : 'user.jpg'" class="circle" id="profilePic" accept=".jpg,.jpeg,.png">
+                <div id="setPic">
+                    <h4>Postavite drugu fotografiju:</h4>
+                    <input type="file" name="profileImage" (change)="onFileSelected($event)" id="file">
+                </div>
+                <p class="explaination">Izmedju 100x100px i 300x300px, format JPG ili PNG</p>
+            </div>
+        </div>
+        <div class="wrap-to-center">
+            <div class="about">
+                <div class="info">
+                    <p class="label">Ime</p>
+                    <input [(ngModel)]="name" name="name">
+                </div>
+                <div class="info">
+                    <p class="label">Prezime</p>
+                    <input [(ngModel)]="surname" name="surname">
+                </div>
+                <div class="info">
+                    <p class="label">Adresa</p>
+                    <input [(ngModel)]="address" name="address">
+                </div>
+                <div class="info">
+                    <p class="label">Telefon</p>
+                    <input [(ngModel)]="phone" name="phone">
+                </div>
+                <div class="info">
+                    <p class="label">Email</p>
+                    <input [(ngModel)]="email" name="email">
+                </div>
+                @if(user?.type != 'owner'){
+                <div class="info">
+                    <p class="label">Broj Kartice</p>
+                    <input [(ngModel)]="card" name="card" (input)="getCardType(card)">
+                    @if(cardType == 'diners-club'){<img src="diners-club.png" class="cardType">}
+                    @if(cardType == 'master'){<img src="master.png"  class="cardType">}
+                    @if(cardType == 'visa'){<img src="visa.png"  class="cardType">}                   
+                </div>
+                }
+            </div>
+        </div>
+
+        <div class="wrap-to-center">
+            <div id="lower">
+                <button id="profileButton" class="submit" type="submit">Primeni izmene</button>
+                <p class="error">{{error}} </p>
+            </div>
+        </div>
+    </form>
+
+</div>

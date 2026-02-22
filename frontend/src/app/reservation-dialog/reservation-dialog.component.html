@@ -1,0 +1,6 @@
+<h3 mat-dialog-title>Da li zelite da prihvatite rezervaciju od korisnika {{data.guest}}?</h3>
+<mat-dialog-actions>
+    <button mat-button (click)="dialogRef.close('approve')" color="accent">Prihvati</button>
+    <button mat-button (click)="dialogRef.close('reject')" color="warn">Odbij</button>
+    <button matButton mat-dialog-close class="cancel">Odustani</button>
+</mat-dialog-actions>

@@ -1,0 +1,161 @@
+.user{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #aec2b0;
+    border-radius: 5px;
+    padding: 16px;
+}
+.userImg{
+    width: 48px;
+    height: auto;
+}
+
+.pic{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 8px;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.houses{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4px;
+}
+.title2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.house{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.title3{
+    font-size: 20px;
+}
+
+.requests{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 8px;
+}
+
+.userReq{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #aec2b0;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+
+
+.titleReq{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+@media only screen and (max-width: 1200px){
+    .users{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 8px;
+    }
+
+    .title{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .houses{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .title2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .requests{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .titleReq{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+    .users{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 8px;
+    }
+
+    .title{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .houses{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 4px;
+    }
+    .title2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .requests{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .titleReq{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .users{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8px;
+    }
+
+    .title{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .houses{
+        display: flex;
+        flex-direction: column;
+    }
+    .requests{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .titleReq{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

@@ -1,0 +1,153 @@
+#stats{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4px;
+    color: #c3c3c3;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h1{
+    color: black;
+    font-size: 32px;
+    margin: 0;
+    
+}
+
+#home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#search{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+    background-color:#5f7e63;
+    padding: 16px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.search-input, .sort-input{
+    cursor: pointer;
+    height: 35px;
+    width: 250px;
+    border: 1px solid #e5ece6;
+    font-size: 14px;
+    padding: 4px;
+}
+
+
+#place-input{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#name-input{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#searchImg{
+    width: 30px;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+#houses{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.house{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.stars, .score{
+    display: flex;
+    align-items: center;
+}
+
+.avg{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.star{
+   position: relative;
+   width: 14px;
+   height: 14px;
+}
+
+.star-empty,.star-full{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14px;
+}
+
+.star-empty{
+    z-index: 1;
+    opacity: 40%;
+}
+
+.star-full{
+    z-index: 2;
+}
+
+
+@media only screen and (max-width: 1200px){
+    #houses{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #houses{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #houses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #stats{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 16px;
+    }
+    .search-sort{
+        max-width: 450px;
+    }
+    .search-input{
+    cursor: pointer;
+    height: 35px;
+    width: 180px;
+    border: 1px solid #e5ece6;
+    font-size: 14px;
+    padding: 4px;
+}
+}

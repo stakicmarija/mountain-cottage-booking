@@ -1,0 +1,86 @@
+.user{
+    width: 48px;
+    height: auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.sentBy{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.username{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.requests{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.request{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #aec2b0;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.buttons{
+    display: flex;
+    gap: 4px;
+}
+
+#reservation-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+::ng-deep .fc-event-time {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1200px){
+    .requests{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .title{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .requests{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .title{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .requests{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .title{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

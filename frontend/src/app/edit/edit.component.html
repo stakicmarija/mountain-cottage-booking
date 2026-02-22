@@ -1,0 +1,72 @@
+<div class="content">
+    <div class="wrap-to-center">
+        <form id="edit-container" class="form-container" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+            <h2 class="alone">Izmenite podatke</h2>
+            <div class="alone">
+                <p class="label">Galerija</p>
+                <div class="gallery">
+                    @for(g of house.gallery; track $index; let idx = $index){
+                        <div class="g">
+                            <img [src]="'http://localhost:4000/uploads/' + g" class="houseImg">
+                            <h2 class="x" (click)="deleteFromGallery(house.gallery[idx])">X</h2>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="alone">
+                <p class="label">Dodajte fotografije u galeriju</p>
+                <input type="file" multiple name="galleryAdded" (change)="onGallerySelected($event)">
+            </div>
+            <div class="alone">
+                <img [src]="'http://localhost:4000/uploads/' + house.coverImage" class="coverImg">
+            </div>
+            <div class="alone">
+                <p class="label">Promeni naslovnu fotografiju</p>
+                <input type="file" (change)="onFileSelected($event)" name="coverImage">
+            </div>
+            <div>
+                <p class="label">Naziv vikendice</p>
+                <input [(ngModel)]="name" name="name">
+            </div>
+                        
+            <div>
+                <p class="label">Mesto</p>
+                <input [(ngModel)]="place" name="place">
+            </div>
+
+            <div class="alone">
+                <p class="label">Opis</p>
+                <textarea [(ngModel)]="description" rows="5" name="description"></textarea>
+            </div> 
+
+            <div class="alone">
+                <p class="label">Kontakt telefon</p>
+                <input [(ngModel)]="contact" name="contact">
+            </div>
+            
+            <div class="price">
+                <span class="label">Letnja cena za noc:</span>
+                <input [(ngModel)]="summerPrice" name="summerPrice" type="number">
+            </div>
+                     
+            <div class="price">
+                <span class="label">Zimska cena za noc:</span>  
+                <input [(ngModel)]="winterPrice" name="winterPrice" type="number">
+            </div>
+                
+            
+            <div>
+                <p class="label">Geografska širina</p>
+                <input [(ngModel)]="lat" name="lat" type="number" step="0.0001" min="-90" max="90">
+            </div>
+
+            <div>
+                <p class="label">Geografska dužina</p>
+                <input [(ngModel)]="long" name="long" type="number" step="0.0001" min="-180" max="180">
+            </div>
+            <button id="res" class="submit alone">Izmeni</button>
+            <span class="alone error"> {{error}}</span>
+        
+        </form>
+
+</div>

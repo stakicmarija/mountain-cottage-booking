@@ -1,0 +1,11 @@
+#footer-container{
+    margin-top: 64px;
+}
+
+#copyright{
+    display: flex;
+    padding: 24px;
+    align-items: flex-end;
+    opacity: 30%;
+    font-size: 12px;
+}

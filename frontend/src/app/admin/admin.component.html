@@ -1,0 +1,71 @@
+<div class="content">
+    <div class="users">
+        <h2 class="title">Vlasnici</h2>
+        @for(o of owners; track o.username){
+        <div class="user">
+
+            <div class="pic">
+                <img [src]="o.profileImage ? 'http://localhost:4000/uploads/' + o.profileImage : 'user.jpg'" class="circle userImg">
+                <span class="username">{{o.username}}</span>
+            </div>
+
+            <img src="edit.png" class="edit" (click)="edit(o.username)">
+
+        </div>}
+
+    </div>
+    <hr>
+    <div class="users">
+        <h2 class="title">Turisti</h2>
+        @for(t of tourists; track t.username){
+        <div class="user">
+
+            <div class="pic">
+                <img [src]="t.profileImage ? 'http://localhost:4000/uploads/' + t.profileImage : 'user.jpg'" class="circle userImg">
+                <span class="username">{{t.username}}</span>
+            </div>
+
+        
+            <img src="edit.png" class="edit" (click)="edit(t.username)">
+
+
+        </div>}
+
+    </div>
+    <hr>
+    <div class="requests">
+        <h2 class="titleReq">Zahtevi</h2>
+        @for(u of notApproved; track u.username){
+        <div class="userReq">
+
+            <div class="pic">
+                <img [src]="u.profileImage ? 'http://localhost:4000/uploads/' + u.profileImage : 'user.jpg'" class="circle userImg">
+                <span class="username">{{u.username}}</span>
+            </div>
+
+            <span class="label">{{u.type == 'tourist' ? 'Turista' : 'Vlasnik'}} </span>
+            <span>{{u.email}}</span>
+            <span>{{u.phone}}</span>
+
+            <div class="editDelete">
+                <button class="submit" (click)="approve(u.username)">Prihvati</button>
+                <button class="giveUp" (click)="decline(u.username)">Odbij</button>
+            </div>
+
+        </div>}
+    </div>
+    <hr>
+    <div class="houses">
+        <h2 class="title2">Vikendice</h2>
+        @for(h of houses; track h._id){
+        <div  [class]="housesMap.get(h._id) ? 'house badReview' : 'house'">
+            <img [src]="'http://localhost:4000/uploads/' + h.coverImage " class="houseImg">
+            <span class="title3">{{h.name}}</span >
+            <span>{{h.place}}</span>
+             @if(housesMap.get(h._id)){ 
+               @if(!h.blocked) {<button class="giveUp" (click)="block(h._id)">Blokiraj</button>}
+               @else {<h4 class="error">BLOKIRANO</h4>}
+            }
+        </div>}
+    </div>
+</div>

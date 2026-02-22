@@ -1,0 +1,64 @@
+<div class="content">
+    <div class="wrap-to-center">
+        <div class="house-container">
+            <div class="gallery">
+                <img [src]="'http://localhost:4000/uploads/' + house.coverImage" class="gallery-image" (click)="fullScreen(-1)"> 
+                @for(g of house.gallery; track $index; let idx = $index){
+                <img [src]="'http://localhost:4000/uploads/' + g" class="gallery-image" (click)="fullScreen(idx)">      
+                }
+            </div>
+            @if(full){
+                <div class="full-screen">
+                    <button class="x" (click)="close()">X</button>
+                    <button class="left arrow" (click)="prev()"><</button>
+                    <img [src]="(curr == -1) ?('http://localhost:4000/uploads/' + house.coverImage) : ('http://localhost:4000/uploads/' + house.gallery[curr])" class="full-image">
+                    <button class="right arrow" (click)="next()">></button>
+                </div>
+            }
+            <h2>{{house.name}}, {{house.place}}</h2>
+            <p class="description">{{house.description}}</p>
+
+            <div class="contact">
+                <p class="label">Kontaktiraj vlasnika</p>
+                <p class="number">{{house.contact}}</p>
+            </div>
+
+
+            <div class="pricing">
+                <h3>Cenovnik</h3>
+                <h5>Maj-Septembar {{house.summerPrice}}€ noc</h5>
+                <h5>Oktobar-April {{house.winterPrice}}€ noc</h5>
+            </div>
+            <button id="res" class="submit" (click)="reserve()">Rezervisi</button>
+
+            <div id="map"></div>
+
+            <hr>
+
+            <div class="comments">
+                @for(r of reservations; track $index){
+                @if(r.rating > 0){
+                <div class="comment">
+
+                    <div class="commUp">
+                        <img src="user.jpg" class="circle user">
+                        <div>
+                            <h5>{{r.guest}}</h5>
+                            <div class="rating">
+                                <h6>{{r.rating}}</h6>
+                                <img src="starYellow.png" class="star">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <p class="opinion">{{r.comment}}</p>
+                </div>}}
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

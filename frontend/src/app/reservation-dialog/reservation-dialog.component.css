@@ -1,0 +1,17 @@
+mat-dialog-actions{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+
+.cancel{
+    font-size: 14px;
+    border: none;
+    color: grey;
+    background-color: transparent;
+    cursor: pointer;
+}

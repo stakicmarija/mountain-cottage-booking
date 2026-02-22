@@ -1,0 +1,208 @@
+[{
+  "_id": {
+    "$oid": "6877fd8caa372f39266383f0"
+  },
+  "username": "admin",
+  "password": "$2a$12$p19Q.qrBbCQRTTILR.1DZ.jGwYS9sp3T3FZS3Cwx1.tXmMmQIi5gi",
+  "type": "admin",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6880af407fbc870539bdb980"
+  },
+  "username": "marija",
+  "password": "$2b$10$oodUby715a1SoyPpXyEN9uTbiiMWPa0tR7tdSdHaEn/g0zBgOxKde",
+  "type": "tourist",
+  "name": "Marija",
+  "surname": "Stakic",
+  "gender": "female",
+  "address": "Vidikovacki venac 55",
+  "phone": "0615560255",
+  "email": "marijastakic@gmail.com",
+  "card": "4556123456789012",
+  "profileImage": "1753978811458-profilePic.jpg",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6880afeb7fbc870539bdb98c"
+  },
+  "username": "marko",
+  "password": "$2b$10$3jphrAI8oNJD4WtmrpbydeUHFiWi/tM0skmPMug60BS8kJeWLOvSO",
+  "type": "owner",
+  "name": "Marko",
+  "surname": "Markovic",
+  "gender": "male",
+  "address": "Kneza Milosa 123",
+  "phone": "0612345678",
+  "email": "markomarko@yahoo.com",
+  "card": "301987653234567",
+  "profileImage": "1755460546335-profffff.png",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6880b0cf7fbc870539bdb9a0"
+  },
+  "username": "ana_petrovic",
+  "password": "$2b$10$tVrLGdiyPFsCP2hIXlwBPuPf/A219rLX6Y1IbIUJPnqJZ4PlmRWXG",
+  "type": "owner",
+  "name": "Ana",
+  "surname": "Petrovic",
+  "gender": "female",
+  "address": "Kneza Viseslava 75",
+  "phone": "064765442",
+  "email": "anapet1@gmail.com",
+  "card": "5234356767887905",
+  "profileImage": "1753264334989-16027bfba2e74c5d90b6ce0f28ff9f96.jpg",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6880b1b27fbc870539bdb9ac"
+  },
+  "username": "nikolajov",
+  "password": "$2b$10$XipOl.ORkuQ2f6p203Jqbu4tH.9hA1Pb2j9jeri0qMpIGjDOqYYWq",
+  "type": "tourist",
+  "name": "Nikola",
+  "surname": "Jovanovic",
+  "gender": "male",
+  "address": "Pozeska 90",
+  "phone": "0665312339",
+  "email": "jovanovicn@gmail.com",
+  "card": "4716567865689873",
+  "profileImage": "",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "68889ed6c26391aeffee44c2"
+  },
+  "username": "milica__",
+  "password": "$2b$10$YFRZB76ZTtKsXU7OLjqXG.jYj9gYRciCBBa.pfgHSCHqtsJUxuYn2",
+  "type": "owner",
+  "name": "Milica",
+  "surname": "Milic",
+  "gender": "female",
+  "address": "Jurija Gagarina 107",
+  "phone": "0665432166",
+  "email": "mica@gmail.com",
+  "card": "302767687653636",
+  "profileImage": "1753784022316-profilnaMica.jpeg",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6888a2a9c26391aeffee4528"
+  },
+  "username": "stefko86",
+  "password": "$2b$10$kwIwxSQOM9IdE2JVz4SF9.MRy3fFGlxMX0wqQRrYor.diIqz6OqfK",
+  "type": "owner",
+  "name": "Stefan",
+  "surname": "Ilic",
+  "gender": "male",
+  "address": "Vojvode Stepe 65",
+  "phone": "0678987755",
+  "email": "stefko@gmail.com",
+  "card": "5145252536625366",
+  "profileImage": "1753785001384-stefko.jpeg",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6888a734c26391aeffee457e"
+  },
+  "username": "jovana_jovic",
+  "password": "$2b$10$VDqnSiHD1JlvAOgzNkOvpOBWTYKdFb2tZY10EZ4bjjtttx2YtfnBm",
+  "type": "tourist",
+  "name": "Jovana",
+  "surname": "Jovic",
+  "gender": "female",
+  "address": "Svetozara Markovica 12",
+  "phone": "0644432355",
+  "email": "jovanajovic@gmail.com",
+  "card": "4556223323232132",
+  "profileImage": "",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6888a7fbc26391aeffee458a"
+  },
+  "username": "jeca81",
+  "password": "$2b$10$tVAJsDsWT6MI1sw1kykdp.c3cVeBvUa9fJzMh1D7JVccZP.3aBO/e",
+  "type": "tourist",
+  "name": "Jelena",
+  "surname": "Markovic",
+  "gender": "female",
+  "address": "Miska Kranjca 55",
+  "phone": "0612230422",
+  "email": "jelenam@gmail.com",
+  "card": "5574358653235689",
+  "profileImage": "1753786363104-Image 123.jpeg",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6888a869c26391aeffee4596"
+  },
+  "username": "milos",
+  "password": "$2b$10$YdxyHakv7NVJvyK/gACbT.nuOMCus5f0MYv6AFcy/gqW5E3x8U6RS",
+  "type": "tourist",
+  "name": "Milos",
+  "surname": "Milosevic",
+  "gender": "male",
+  "address": "Maricka 90",
+  "phone": "0645560255",
+  "email": "milosevic@gmail.com",
+  "card": "387654567876545",
+  "profileImage": "",
+  "approved": true,
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "688b92b8649c16281bef2aae"
+  },
+  "username": "_deaktiviran",
+  "password": "$2b$10$ZEoXvKQ61k.Hp0v3XJXO0eLm7dger4F1PF.lVxZ0k40o0CisktvWm",
+  "type": "tourist",
+  "name": "Dejan",
+  "surname": "Deaktiviran",
+  "gender": "male",
+  "address": "Bilecka 56",
+  "phone": "0612234266",
+  "email": "deaktiviran@gmail.com",
+  "card": "4716565782097651",
+  "profileImage": "",
+  "approved": false,
+  "active": false
+},
+{
+  "_id": {
+    "$oid": "688b94b8649c16281bef2b08"
+  },
+  "username": "bogdan_08",
+  "password": "$2b$10$xTWJ/Ufxtf8qss1J8ZgDpOM8J4ollnb82H4K9gZafIx4ESei/aUCu",
+  "type": "tourist",
+  "name": "Bogdan",
+  "surname": "Stakic",
+  "gender": "male",
+  "address": "Kneza Milosa 34",
+  "phone": "0645050999",
+  "email": "boki@gmail.com",
+  "card": "5567676889988903",
+  "profileImage": "",
+  "approved": false,
+  "active": true
+}]

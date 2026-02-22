@@ -1,0 +1,10 @@
+ng add @angular/material
+
+npm install @Fullcalendar/angular
+npm install @Fullcalendar/core
+npm install @Fullcalendar/daygrid
+
+npm install leaflet
+npm install @types/leaflet
+
+npm install chart.js

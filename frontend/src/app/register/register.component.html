@@ -1,0 +1,30 @@
+<div class="wrap-to-center content">
+    <form class="form-container" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+        <h3>Napravi nalog</h3>
+        <input type="text" class="form-input" placeholder="Korisnicko ime" [(ngModel)]="username" name="username">
+        <input type="password" class="form-input" placeholder="Lozinka" [(ngModel)]="password" name="password">
+         <div class="form-radio form-input">
+            <div><label>Turista</label><input type="radio" name="type" value="tourist" [(ngModel)]="type"></div>
+            <div><label>Vlasnik</label><input type="radio" name="type" value="owner" [(ngModel)]="type"></div>
+        </div>
+        <div class="fullName">
+            <input type="text" class="form-input" placeholder="Ime" [(ngModel)]="name" id="name" name="name">
+            <input type="text" class="form-input" placeholder="Prezime" [(ngModel)]="surname" id="surname" name="surname">
+        </div>
+        <div class="form-radio form-input">
+            <div><label>M</label><input type="radio" name="gender" value="male" [(ngModel)]="gender"></div>
+            <div><label>Ž</label><input type="radio" name="gender" value="female" [(ngModel)]="gender"></div>
+        </div>
+        <input type="text" class="form-input" placeholder="Adresa" [(ngModel)]="address" name="address">
+        <input type="text" class="form-input" placeholder="Telefon" [(ngModel)]="phone" name="phone">
+        <input type="text" class="form-input" placeholder="Email" [(ngModel)]="email" name="email">
+        <input type="file" class="form-input" name="profileImage" (change)="onFileSelected($event)">
+        <input type="text" class="form-input" placeholder="Broj kartice" [(ngModel)]="card" name="card" (input)="getCardType(card)">
+        @if(cardType == 'diners-club'){<img src="diners-club.png" class="cardType">}
+        @if(cardType == 'master'){<img src="master.png"  class="cardType">}
+        @if(cardType == 'visa'){<img src="visa.png"  class="cardType">}
+        <button type="submit" class="submit">Registruj</button>
+        <a class="have-account" (click)="goToLogin()">Vec imate nalog? Prijavite se</a>
+        <p class="error">{{error}}</p>
+    </form>
+</div>

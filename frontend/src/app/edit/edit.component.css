@@ -1,0 +1,78 @@
+h2,h4,h5{
+    margin: 0;
+}
+
+#edit-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    height: 18px;
+    width: 300px;
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+textarea::placeholder{
+    color: #cad7cb;
+}
+
+ .prices{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 0;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.alone{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 16px;
+    
+}
+
+.houseImg{
+    max-width: 150px;
+    max-height: 150px;
+}
+.coverImg{
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 4/5;
+    margin-bottom: 0;
+    border-radius: 15px;
+}
+.x{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    right: 0;
+    color: #f03e4a;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.g{
+    position: relative;
+}

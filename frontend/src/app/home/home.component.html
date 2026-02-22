@@ -1,0 +1,71 @@
+<div id="home-container" class="content">
+    <div id="stats">
+        <div class="info">
+            <h1>{{houses}}</h1>
+            <span>Vikendica</span>
+        </div>
+        <div class="info">
+            <h1>{{owners}}</h1>
+            <span>Vlasnika</span>
+        </div>
+        <div class="info">
+            <h1>{{tourists}}</h1>
+            <span>Turista</span>
+        </div>
+        <div class="info">
+            <h1>{{resDay}}</h1>
+            <span>Rezervacija u 24h</span>
+        </div>
+        <div class="info">
+            <h1>{{resWeek}}</h1>
+            <span>Rezervacija u 7 dana</span>
+        </div>
+        <div class="info">
+            <h1>{{resMonth}}</h1>
+            <span>Rezervacija u 30 dana</span>
+        </div>
+    </div>
+    <div class="wrap-to-center">
+        <div class="search-sort">
+            <div id="search">
+                <input type="text" placeholder="Mesto" class="search-input" [(ngModel)]="searchPlace" id="place-input">
+                <input type="text" placeholder="Naziv" class="search-input" [(ngModel)]="searchName" id="name-input">
+                <img src="search.png" id="searchImg" (click)="onSearch()">
+
+            </div>
+            <select name="place" class="sort-input" [(ngModel)]="sort" (ngModelChange)="sortHouses()">
+                <option value="" disabled selected>Sortiraj</option>
+                <option value="increasePlace">Rastuce po mestu</option>
+                <option value="decreasePlace">Opadajuce po mestu</option>
+                <option value="increaseName">Rastuce po nazivu</option>
+                <option value="decreaseName">Opadajuce po nazivu</option>
+            </select>
+        </div>
+    </div>
+    <div id="houses">
+        @for(h of filteredHouses; track h._id){
+        <div (click)="goToHouse(h._id)" [class]="type == 'tourist' ? 'house clickable' : 'house'">
+            <img [src]="'http://localhost:4000/uploads/' + h.coverImage" class="houseImg">
+            <span class="title">{{h.name}}</span >
+            <span>{{h.place}}</span>
+
+            @if(type=="tourist" && h.avgRating > 0){
+            <div class="score">
+                <span class="avg">{{h.avgRating}}</span>
+                <div class="stars">
+                    @for(s of starParts(h.avgRating); track $index){
+                        <div class="star">
+                        <img src="star.png" class="star-empty">
+                        @if(s == 1){<img src="starYellow.png" class="star-full">}
+                        @else if(s == 0.25){<img src="quarterStar.png" class="star-full">}
+                        @else if(s == 0.5){<img src="halfStar.png" class="star-full">}
+                        @else if(s == 0.75){<img src="3quarterStar.png" class="star-full">}
+                        </div>
+                    }
+                </div>
+            </div>
+            }
+
+        </div>}
+    </div>
+</div>

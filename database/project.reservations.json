@@ -1,0 +1,338 @@
+[{
+  "_id": {
+    "$oid": "6888b02bc26391aeffee4698"
+  },
+  "guest": "marija",
+  "houseId": "68888c56c26391aeffee4398",
+  "houseRef": {
+    "$oid": "68888c56c26391aeffee4398"
+  },
+  "dateFrom": {
+    "$date": "2025-07-05T13:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-07-12T05:30:00.000Z"
+  },
+  "created": {
+    "$date": "2025-07-29T11:27:39.198Z"
+  },
+  "adults": 2,
+  "children": 0,
+  "comment": "Bas kao na slikama, uredno i cisto, odlicna lokacija, svaka preporuka xx\n",
+  "rating": 5,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "688b98715fe2dfe5443ea022"
+  },
+  "guest": "marija",
+  "houseId": "688892cec26391aeffee43db",
+  "houseRef": {
+    "$oid": "688892cec26391aeffee43db"
+  },
+  "dateFrom": {
+    "$date": "2025-08-21T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-08-25T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2025-07-31T16:23:13.091Z"
+  },
+  "adults": 2,
+  "children": 0,
+  "comment": "",
+  "rating": 0,
+  "description": "DOdatni zahtev primite kucne ljubimce\n",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "688b98965fe2dfe5443ea036"
+  },
+  "guest": "marija",
+  "houseId": "6888998fc26391aeffee4470",
+  "houseRef": {
+    "$oid": "6888998fc26391aeffee4470"
+  },
+  "dateFrom": {
+    "$date": "2025-12-17T18:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-12-25T07:00:00.000Z"
+  },
+  "created": {
+    "$date": "2025-07-31T16:23:50.544Z"
+  },
+  "adults": 2,
+  "children": 0,
+  "comment": "",
+  "rating": 0,
+  "description": "",
+  "approved": "",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "688e75fa90f2bd666c6c1c4e"
+  },
+  "guest": "marija",
+  "houseId": "6888a627c26391aeffee456c",
+  "houseRef": {
+    "$oid": "6888a627c26391aeffee456c"
+  },
+  "dateFrom": {
+    "$date": "2025-09-03T14:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-09-18T05:00:00.000Z"
+  },
+  "created": {
+    "$date": "2025-08-02T20:32:58.428Z"
+  },
+  "adults": 5,
+  "children": 0,
+  "comment": "",
+  "rating": 0,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68a222a512c4d3ef0f97c16b"
+  },
+  "guest": "nikolajov",
+  "houseId": "68888c56c26391aeffee4398",
+  "houseRef": {
+    "$oid": "68888c56c26391aeffee4398"
+  },
+  "dateFrom": {
+    "$date": "2024-09-25T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2024-09-30T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2025-08-17T18:42:45.643Z"
+  },
+  "adults": 1,
+  "children": 0,
+  "comment": "Odlicna vikendica za miran vikend, jedina zamerka sto nema parking",
+  "rating": 4,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68a2270fee2eb702973d3a97"
+  },
+  "guest": "nikolajov",
+  "houseId": "6888998fc26391aeffee4470",
+  "houseRef": {
+    "$oid": "6888998fc26391aeffee4470"
+  },
+  "dateFrom": {
+    "$date": "2025-10-17T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-10-21T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2025-08-17T19:01:35.812Z"
+  },
+  "adults": 2,
+  "children": 1,
+  "comment": "",
+  "rating": 0,
+  "description": "Nemam",
+  "approved": "",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68a22c9eee2eb702973d3b4f"
+  },
+  "guest": "nikolajov",
+  "houseId": "68888e89c26391aeffee43b2",
+  "houseRef": {
+    "$oid": "68888e89c26391aeffee43b2"
+  },
+  "dateFrom": {
+    "$date": "2025-08-17T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-08-18T06:00:00.515Z"
+  },
+  "created": {
+    "$date": "2025-08-17T19:25:18.089Z"
+  },
+  "adults": 1,
+  "children": 0,
+  "comment": "",
+  "rating": 0,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68a2379cfd4555a2e4b9f591"
+  },
+  "guest": "nikolajov",
+  "houseId": "688892cec26391aeffee43db",
+  "houseRef": {
+    "$oid": "688892cec26391aeffee43db"
+  },
+  "dateFrom": {
+    "$date": "2025-10-16T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-10-24T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2025-08-17T20:12:12.241Z"
+  },
+  "adults": 4,
+  "children": 0,
+  "comment": "",
+  "rating": 0,
+  "description": "Parking mesto",
+  "approved": "rejected",
+  "rejection": "Nemamo trazeno parking mesto"
+},
+{
+  "_id": {
+    "$oid": "68b018cc3b794598447f75eb"
+  },
+  "guest": "milos",
+  "houseId": "688892cec26391aeffee43db",
+  "houseRef": {
+    "$oid": "688892cec26391aeffee43db"
+  },
+  "dateFrom": {
+    "$date": "2025-02-02T13:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-02-06T07:00:00.000Z"
+  },
+  "created": {
+    "$date": "2024-08-28T08:52:28.349Z"
+  },
+  "adults": 2,
+  "children": 1,
+  "comment": "Neuredno, neprijatni vlasnici",
+  "rating": 1,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68b01a563b794598447f764c"
+  },
+  "guest": "jeca81",
+  "houseId": "688892cec26391aeffee43db",
+  "houseRef": {
+    "$oid": "688892cec26391aeffee43db"
+  },
+  "dateFrom": {
+    "$date": "2025-04-14T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-04-18T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2024-08-28T08:59:02.954Z"
+  },
+  "adults": 3,
+  "children": 0,
+  "comment": "Ne izgleda kao na slikama\n",
+  "rating": 1,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68b01b133b794598447f7686"
+  },
+  "guest": "jovana_jovic",
+  "houseId": "688892cec26391aeffee43db",
+  "houseRef": {
+    "$oid": "688892cec26391aeffee43db"
+  },
+  "dateFrom": {
+    "$date": "2025-05-13T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-05-21T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2024-08-28T09:02:11.905Z"
+  },
+  "adults": 2,
+  "children": 2,
+  "comment": "Uzas!!!",
+  "rating": 1,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68b022363f402f1c594ee982"
+  },
+  "guest": "nikolajov",
+  "houseId": "688892cec26391aeffee43db",
+  "houseRef": {
+    "$oid": "688892cec26391aeffee43db"
+  },
+  "dateFrom": {
+    "$date": "2023-09-11T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2023-09-17T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2023-08-28T09:32:38.580Z"
+  },
+  "adults": 2,
+  "children": 0,
+  "comment": "Uzivali smo, lepo dvoriste",
+  "rating": 4,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+},
+{
+  "_id": {
+    "$oid": "68b023853f402f1c594eea06"
+  },
+  "guest": "marija",
+  "houseId": "68889abec26391aeffee447c",
+  "houseRef": {
+    "$oid": "68889abec26391aeffee447c"
+  },
+  "dateFrom": {
+    "$date": "2025-08-28T12:00:00.999Z"
+  },
+  "dateTo": {
+    "$date": "2025-08-31T06:00:00.000Z"
+  },
+  "created": {
+    "$date": "2025-08-28T09:38:13.617Z"
+  },
+  "adults": 2,
+  "children": 0,
+  "comment": "",
+  "rating": 0,
+  "description": "",
+  "approved": "approved",
+  "rejection": ""
+}]

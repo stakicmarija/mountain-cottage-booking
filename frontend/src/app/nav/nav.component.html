@@ -1,0 +1,46 @@
+
+<div id="nav">
+    <img id="logo" src="logo.png" (click)="goHome()">
+
+    <div [class]="burgerOpen ? 'burger active' : 'burger'" (click)="toggleMenu()">
+        <div id="lineTop" class="lines"></div>
+        <div id="lineMiddle" class="lines"></div>
+        <div id="lineBottom" class="lines"></div>
+    </div>
+
+    <div [class]="burgerOpen ? 'nav-links active' : 'nav-links'">
+    @if(type == "tourist"){
+    <ul class="links">
+        <li (click)="goToProfile()">Profil</li>
+        <li [routerLink]="['/']">Vikendice</li>
+        <li [routerLink]="['/reservations-tourist']" >Rezervacije</li>
+        <li class="log"  (click)="goToPassword()">Promeni lozinku</li>
+        <li class="log" (click)="logOut()">Izloguj se</li>
+    </ul>
+    }
+
+    @else if(type == "owner"){
+    <ul class="links">
+        <li (click)="goToProfile()">Profil</li>
+        <li [routerLink]="['/reservations-owner']">Rezervacije</li>
+        <li (click)="goToMyHouses()">Moje vikendice</li>
+        <li [routerLink]="['/statistics']" >Statistika</li>
+        <li class="log"  (click)="goToPassword()">Promeni lozinku</li>
+        <li class="log" (click)="logOut()">Izloguj se</li>
+    </ul>
+    }  
+
+    @else if(type == "admin"){
+    <ul class="links">
+        <li [routerLink]="['/admin']">Uvid</li>
+        <li class="log"   (click)="goToPassword()">Promeni lozinku</li>
+        <li class="log" (click)="logOut()">Izloguj se</li>
+    </ul>
+    }
+
+    @else{
+        <p (click)="goToLogin()" class="links log">Uloguj se</p>
+    }
+    </div>
+
+</div>

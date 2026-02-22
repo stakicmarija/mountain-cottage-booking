@@ -1,0 +1,22 @@
+.form-radio{
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    cursor: auto;
+}
+.fullname{
+    display: flex;
+}
+#name,#surname{
+    width: 120px;
+}
+#name{
+    margin-right: 10px;
+}
+
+.cardType{
+    width: 40px;
+    height: auto;
+}

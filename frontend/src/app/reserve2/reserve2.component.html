@@ -1,0 +1,25 @@
+<div class="wrap-to-center">
+    <div class="content form-container" id="reserve2-container">
+        <span class="alone price">{{house.name}}</span>
+        <span>{{dateFrom | date:'dd.MM.yyyy.'}} {{hoursFrom}}:{{ minutesFrom < 10 ? '0' + minutesFrom : minutesFrom }}</span>
+        <span>{{dateTo | date:'dd.MM.yyyy.'}} {{hoursTo}}:{{ minutesTo < 10 ? '0' + minutesTo : minutesTo }}</span>
+        <span>Odrasli {{adults}}</span>
+        <span>Deca {{children}}</span>
+        <span class="alone price">Cena {{price}}$</span>
+        <div class="column">
+            <span class="label">Broj kartice</span>
+            <input [(ngModel)]="card" name="card" (input)="getCardType(card)" class="form-input"> 
+            @if(cardType == 'diners-club'){<img src="diners-club.png" class="cardType">}
+            @if(cardType == 'master'){<img src="master.png"  class="cardType">}
+            @if(cardType == 'visa'){<img src="visa.png"  class="cardType">}     
+        </div>    
+        <div class="column alone">
+            <span class="label">Dodatni zahtevi</span>
+            <textarea maxlength="500" rows="8" class="textarea" [(ngModel)]="description" name="description"></textarea>
+        </div>
+        
+        <button class="submit" id="next" (click)="submit()">Potvrdi</button>
+        <span class="error alone">{{error}}</span>
+    </div>
+</div>
+

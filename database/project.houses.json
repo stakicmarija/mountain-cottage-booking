@@ -1,0 +1,389 @@
+[{
+  "_id": {
+    "$oid": "68888c56c26391aeffee4398"
+  },
+  "owner": "marko",
+  "name": "ZEN luksuzna kuca ",
+  "place": "Zlatibor",
+  "description": "Pobegnite u mir i prirodu na Zlatiboru! Naš šarmantni objekat sadrži četiri udobne kuće, savršene za porodice, parove ili grupe, od kojih svaka spaja moderan komfor sa rustičnim šarmom. Vile su smeštene u podnožju Čigote, u selu Smiljanski Zakosi, na samo 4 km od centra Zlatibora — dovoljno blizu za praktičnost, a opet okružene mirom i prirodom.",
+  "contact": "0612345678",
+  "summerPrice": 82,
+  "winterPrice": 95,
+  "lat": 43.41,
+  "long": 19.53,
+  "coverImage": "1753779286783-0bc7580b-8da5-4598-8854-10411bf5852a.jpeg.avif",
+  "gallery": [
+    "1753779286786-1cd3d394-9a09-421b-bee2-6ed8b77b307a.jpeg.avif",
+    "1753779286790-4bf194d6-b093-4f62-8fd3-8a8602d41f92.jpeg.avif",
+    "1753779286791-07c223a5-6a52-41e5-9b25-7d47e63a262d.jpeg.avif",
+    "1753779286792-59abc8ac-418f-44df-87e1-7b02a0da8a69.jpeg.avif",
+    "1753779286796-c3507c9d-7e58-4033-ba7a-26ed75ea2c0e.jpeg.avif",
+    "1753779286797-e9140278-ed8e-45a4-ae13-c1bfbdb97fdb.jpeg.avif",
+    "1753779563478-c9ea5b80-ca14-4890-accc-8534e8c0da80.jpeg.avif"
+  ],
+  "avgRating": 4.5,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "68888e89c26391aeffee43b2"
+  },
+  "owner": "marko",
+  "name": "Markova koliba",
+  "place": "Zlatibor",
+  "description": "Planinska koliba od drveta nalazi se u mirnom kraju blizu planinarske staze, 10 km od skijališta Tornik i 5 km od centra Zlatibora.\r\nIma potpuno opremljenu kuhinju, kupatilo i dnevnu sobu sa kaminom, TV-om i kaučem na razvlačenje u prizemlju. Opustite se sa celom porodicom na ovom mirnom mestu za boravak sa svežim planinskim vazduhom, bez saobraćaja, sa prijateljskim komšijama i blizu grada, prodavnica i restorana.",
+  "contact": "0612345678",
+  "summerPrice": 48,
+  "winterPrice": 60,
+  "lat": 43.33,
+  "long": 19.3,
+  "coverImage": "1753779849466-Image.jpeg",
+  "gallery": [
+    "1753779849477-Image 1.jpeg",
+    "1753779849484-Image 2.jpeg",
+    "1753779849487-Image 3.jpeg",
+    "1753779849488-Image 4.jpeg",
+    "1753779849489-Image 5.jpeg",
+    "1753779849497-Image 6.jpeg",
+    "1753779849498-Image 7.jpeg",
+    "1753779849500-Image 8.jpeg",
+    "1753779849501-Image 9.jpeg",
+    "1753779849507-Image 10.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "688892cec26391aeffee43db"
+  },
+  "owner": "marko",
+  "name": "Brvnara",
+  "place": "Zlatibor",
+  "description": "Opustite se sa porodicom ili prijateljima na samo 1.5 km od centra Zlatibora. Nalazimo se u veoma mirnom naselju Sloboda, brvnara je okružena bukovom šumom i daleko od sve buke. To je nova jedinica sa prostranim dvorištem.",
+  "contact": "0612345678",
+  "summerPrice": 106,
+  "winterPrice": 120,
+  "lat": 43.48,
+  "long": 19.4,
+  "coverImage": "1753780942092-Image 20.jpeg",
+  "gallery": [
+    "1753780942094-Image 18.jpeg",
+    "1753780942097-Image 17.jpeg",
+    "1753780942100-Image 16.jpeg",
+    "1753780942101-Image 19.jpeg"
+  ],
+  "avgRating": 1.75,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "6888998fc26391aeffee4470"
+  },
+  "owner": "ana_petrovic",
+  "name": "Vila Prive",
+  "place": "Kopaonik",
+  "description": "Ovaj objekat nudi pristup balkonu, besplatan privatni parking i besplatan Wi-Fi. U Vili Prive end Spa je takođe dostupan prostor za sedenje na otvorenom.\r\nVila sa terasom i pogledom na baštu sadrži 1 spavaću sobu, dnevnu sobu, kablovske televizore ravnog ekrana, opremljenu kuhinju, podno grejanje i 2 kupatila sa tuš kabinom i besplatan privatni spa centar koji uključuje đakuzi, slanu sobu, saunu i tursko kupatilo. Gosti vili moći će da uživaju u aktivnostima na Kopaoniku i okolini, poput skijanja.",
+  "contact": "064765442",
+  "summerPrice": 176,
+  "winterPrice": 200,
+  "lat": 42.43,
+  "long": 20.37,
+  "coverImage": "1753782671702-Image 21.jpeg",
+  "gallery": [
+    "1753782671711-Image 22.jpeg",
+    "1753782671712-Image 23.jpeg",
+    "1753782671716-Image 24.jpeg",
+    "1753782671717-Image 29.jpeg",
+    "1753782671717-Image 28.jpeg",
+    "1753782671718-Image 27.jpeg",
+    "1753782671718-Image 26.jpeg",
+    "1753782671721-Image 25.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "68889abec26391aeffee447c"
+  },
+  "owner": "ana_petrovic",
+  "name": "Cela koliba ",
+  "place": "Divcibare",
+  "description": "Uživajte u udobnom utočištu u ovoj jedinstvenoj brvnari napravljenoj sa ljubavlju i velikom pažnjom posvećenom detaljima. Potpuno opremljena, prelepo dekorisana velikim prozorima i zapanjujućim pogledom, ova brvnara je pravi dragulj.\r\n\r\nProstorija\r\nKuća od 50 kvadratnih metara ima otvoreni koncept prizemlja sa dnevnim boravkom, trpezarijom i kuhinjom, kao i kupatilom. Dve spavaće sobe nalaze se na drugom spratu.\r\nNapolju se nalaze terasa i mesto za vatru za uživanje u večeri na otvorenom.",
+  "contact": "064765442",
+  "summerPrice": 91,
+  "winterPrice": 88,
+  "lat": 44.0978,
+  "long": 19.9525,
+  "coverImage": "1753782974033-Image 30.jpeg",
+  "gallery": [
+    "1753782974034-Image 31.jpeg",
+    "1753782974035-Image 32.jpeg",
+    "1753782974035-Image 33.jpeg",
+    "1753782974038-Image 34.jpeg",
+    "1753782974038-Image 35.jpeg",
+    "1753782974038-Image 36.jpeg",
+    "1753782974039-Image 37.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "68889bcac26391aeffee4493"
+  },
+  "owner": "ana_petrovic",
+  "name": "Selo, planina",
+  "place": "Musici",
+  "description": "Kuća se nalazi na izolovanom brdu, 720 metara nadmorske visine, okružena borovom šumom i idiličnim pogledom na planine. Kuća je modernog dizajna i minimalističkih materijala. Velika kuhinja i trpezarija su udobne za provođenje vremena zajedno, uživanje u dobroj hrani sa prelepim pogledom.",
+  "contact": "064765442",
+  "summerPrice": 106,
+  "winterPrice": 90,
+  "lat": 43.3833,
+  "long": 19.6333,
+  "coverImage": "1753783242428-Image 38.jpeg",
+  "gallery": [
+    "1753783242429-Image 39.jpeg",
+    "1753783242430-Image 40.jpeg",
+    "1753783242432-Image 41.jpeg",
+    "1753783242432-Image 42.jpeg",
+    "1753783242433-Image 47.jpeg",
+    "1753783242434-Image 46.jpeg",
+    "1753783242434-Image 45.jpeg",
+    "1753783242435-Image 44.jpeg",
+    "1753783242435-Image 43.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "68889cb8c26391aeffee44a1"
+  },
+  "owner": "ana_petrovic",
+  "name": "Kuca na Rudniku",
+  "place": "Rudnik",
+  "description": "Opustite se sa celom porodicom na ovom mirnom mestu za boravak.",
+  "contact": "064765442",
+  "summerPrice": 67,
+  "winterPrice": 75,
+  "lat": 44.14,
+  "long": 20.4988,
+  "coverImage": "1753783480983-Image 48.jpeg",
+  "gallery": [
+    "1753783480988-Image 49.jpeg",
+    "1753783480989-Image 50.jpeg",
+    "1753783480989-Image 51.jpeg",
+    "1753783480990-Image 52.jpeg",
+    "1753783480990-Image 53.jpeg",
+    "1753783480994-Image 54.jpeg",
+    "1753783480995-Image 55.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "68889d6ac26391aeffee44a5"
+  },
+  "owner": "ana_petrovic",
+  "name": "Kuca na drvetu",
+  "place": "Zlatar",
+  "description": "Zavolećete ovaj jedinstveni i romantični beg. Naša kuća nudi novo iskustvo odmora među drvećem. Nudi svu udobnost tradicionalnog smeštaja, sa prelepim pogledom i netaknutom prirodom na dohvat ruke. Doživite posebnu atmosferu boravka u kućici na drvetu. Kuća ima udoban dnevni boravak sa kuhinjom, kupatilo, veliki krevet na mezaninu. To je savršeno mesto za rad od kuće jer smo vam obezbedili brzi internet i prostor za rad.",
+  "contact": "064765442",
+  "summerPrice": 65,
+  "winterPrice": 72,
+  "lat": 43.5,
+  "long": 19.83,
+  "coverImage": "1753783658579-Image 56.jpeg",
+  "gallery": [
+    "1753783658581-Image 57.jpeg",
+    "1753783658585-Image 58.jpeg",
+    "1753783658585-Image 59.jpeg",
+    "1753783658586-Image 60.jpeg",
+    "1753783658587-Image 61.jpeg",
+    "1753783658587-Image 62.jpeg",
+    "1753783658588-Image 63.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "6888a065c26391aeffee44f5"
+  },
+  "owner": "milica__",
+  "name": "Kamper na Rtnju",
+  "place": "Rtanj",
+  "description": "Ponovo se povežite sa prirodom na ovom nezaboravnom odmoru.\r\nSeosko turističko domaćinstvo Tomićeva koliba nalazi se na južnoj strani Rtnja, u samom podnožju planine i na početku staze za uspon do vrha. Nalazimo se u zoni netaknute prirode.",
+  "contact": "0665432166",
+  "summerPrice": 53,
+  "winterPrice": 45,
+  "lat": 43.771,
+  "long": 21.933,
+  "coverImage": "1753784421729-Image 66.jpeg",
+  "gallery": [
+    "1753784421731-Image 64.jpeg",
+    "1753784421732-Image 65.jpeg",
+    "1753784421732-Image 67.jpeg",
+    "1753784421733-Image 68.jpeg",
+    "1753784421733-Image 69.jpeg",
+    "1753784421734-Image 70.jpeg",
+    "1753784421734-Image 71.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "6888a1c4c26391aeffee450f"
+  },
+  "owner": "milica__",
+  "name": "Brvnara na Kopaniku",
+  "place": "Kopaonik",
+  "description": "Kasa Montana je pravo planinsko iskustvo za opuštanje sa voljenima, bilo da više volite da uživate u udobnosti naše planinske kuće ili da skijate na planinskom odmaralištu Kopaonik.\r\n\r\nKasa Montana se nalazi u Vikend naselju, skijalištu Kopaonik. Ima dnevni boravak sa prostranom terasom i peći na drva, potpuno opremljenu kuhinju, dve spavaće sobe, dva kupatila i smeštajne jedinice.\r\n\r\nModeran dizajniran nameštaj u dnevnoj sobi sa sofom, televizorom ravnog ekrana i brzim Wi-Fi-jem. Kuhinja je potpuno opremljena odličnim setom noževa, tanjira, čaša za vino i automatskom mašinom za espreso. U spavaćoj sobi ćete pronaći dušeke veličine „king size“ i premium posteljinu i jastuke lokalnog proizvođača sa tradicijom. Kupatila su opremljena vrhunskom kozmetikom Geneva Guild bez parabena i aditiva, pogodno za vegane.\r\n\r\nKuća nije daleko od glavnog puta, a put do kuće je mešavina asfalta i šljunka, ali se tokom zimske sezone preporučuje vožnja terenskim vozilom. Put se redovno čisti tokom zimske sezone.\r\n\r\nPrivatni parking je dostupan našim gostima. Našim gostima nudimo opcioni ski transfer svakodnevno.",
+  "contact": "0665432166",
+  "summerPrice": 205,
+  "winterPrice": 220,
+  "lat": 43.269,
+  "long": 20.8,
+  "coverImage": "1753784772752-Image 72.jpeg",
+  "gallery": [
+    "1753784772755-Image 73.jpeg",
+    "1753784772756-Image 74.jpeg",
+    "1753784772757-Image 80.jpeg",
+    "1753784772757-Image 79.jpeg",
+    "1753784772761-Image 77.jpeg",
+    "1753784772761-Image 83.jpeg",
+    "1753784772761-Image 84.jpeg",
+    "1753784772762-Image 82.jpeg",
+    "1753784772762-Image 81.jpeg",
+    "1753784772763-Image 75.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "6888a40cc26391aeffee4556"
+  },
+  "owner": "stefko86",
+  "name": "Cela kuca u Rakovcu",
+  "place": "Fruska gora",
+  "description": "Mirna i lepa kuća – sa prelepim pogledom",
+  "contact": "0678987755",
+  "summerPrice": 57,
+  "winterPrice": 45,
+  "lat": 45.16,
+  "long": 19.71,
+  "coverImage": "1753785356552-Image 86.jpeg",
+  "gallery": [
+    "1753785356556-Image 87.jpeg",
+    "1753785356558-Image 88.jpeg",
+    "1753785356559-Image 89.jpeg",
+    "1753785356559-Image 90.jpeg",
+    "1753785356560-Image 95.jpeg",
+    "1753785356560-Image 94.jpeg",
+    "1753785356561-Image 93.jpeg",
+    "1753785356563-Image 92.jpeg",
+    "1753785356563-Image 91.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "6888a49bc26391aeffee455a"
+  },
+  "owner": "stefko86",
+  "name": "Brvnara Duga Bukovac",
+  "place": "Fruska gora",
+  "description": "Brvnara Duga se nalazi na velikom imanju u Bukovcu. Na ulazu u Nacionalni park Fruška gora, 10 km od centra Novog Sada.\r\n\r\nGostima su na raspolaganju dve brvnare kapaciteta od 4 do najviše 6 osoba po brvnari. Svaka brvnara ima dve spavaće sobe, dnevnu sobu, potpuno opremljenu kuhinju i kupatilo.\r\n\r\n",
+  "contact": "0678987755",
+  "summerPrice": 67,
+  "winterPrice": 59,
+  "lat": 45.15,
+  "long": 19.7194,
+  "coverImage": "1753785499361-Image 96.jpeg",
+  "gallery": [
+    "1753785499366-Image 97.jpeg",
+    "1753785499383-Image 98.jpeg",
+    "1753785499403-Image 99.jpeg",
+    "1753785499405-Image 103.jpeg",
+    "1753785499405-Image 104.jpeg",
+    "1753785499405-Image 102.jpeg",
+    "1753785499406-Image 101.jpeg",
+    "1753785499406-Image 100.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "6888a54ec26391aeffee455e"
+  },
+  "owner": "stefko86",
+  "name": "Crni smaragd Vrdnik",
+  "place": "Fruska gora",
+  "description": "Dobrodošli u Crni Smaragd, modernu brvnaru u srcu Fruške gore, idealnu za one koji žele da pobegnu od gužve i udahnu punim plućima.\r\n\r\nBez obzira da li ste digitalni nomad, par koji traži miran vikend, porodica sa decom ili organizujete intimnu proslavu – ovo je mesto koje pruža sve: udobnost, stil i kontakt sa prirodom.\r\nProstor\r\nBrvnara može da primi do 4 osobe – ima prostranu galeriju sa bračnim krevetom, plus sofu na razvlačenje u dnevnoj sobi.\r\nJedno moderno kupatilo, a za avanturiste – i tuš na otvorenom!\r\nKuhinja je spremna, ali pravi hedonizam se dešava napolju: roštilj, terasa za večere i ogromno dvorište za decu, joga, kafa na travi – šta god vaše srce želi.\r\nEnterijer je u skandinavskom stilu – svetlo drvo, minimalizam, maksimalna udobnost.\r\n\r\nNalazimo se u Lipovcu, mirnom delu Vrdnika, na samo 900 metara od prodavnica i restorana.\r\nFruška gora, banje i planinarske staze su sve na dohvat ruke – ali verovatno nećete želeti da se pomerite iz bašte.\r\n\r\nTiho, porodično, opušteno. Vreme je ovde sporije – samo da se setite šta znači disati punim plućima.",
+  "contact": "0678987755",
+  "summerPrice": 77,
+  "winterPrice": 71,
+  "lat": 45.117,
+  "long": 19.783,
+  "coverImage": "1753785678309-Image 107.jpeg",
+  "gallery": [
+    "1753785678311-Image 105.jpeg",
+    "1753785678313-Image 106.jpeg",
+    "1753785678327-Image 108.jpeg",
+    "1753785678327-Image 109.jpeg",
+    "1753785678329-Image 110.jpeg",
+    "1753785678329-Image 111.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+},
+{
+  "_id": {
+    "$oid": "6888a627c26391aeffee456c"
+  },
+  "owner": "stefko86",
+  "name": "Suncana kuca ",
+  "place": "Fruska gora",
+  "description": "Brvnara se nalazi u srcu Fruške i nalazi se u neposrednoj blizini svega što vam može zatrebati! Neverovatan, moderan, prijatan, potpuno nov smeštaj usred Nacionalnog parka, gde možete uživati u čistom, svežem vazduhu, gledati zvezdano nebo skoro svake letnje noći! Dođite da se izgubite, opustite i odmorite u ovom mirnom, stilskom prostoru, gde ćete biti osamljeni, a opet dovoljno blizu velikih gradova, ako počnete da vam nedostaje gradski život (u šta sumnjamo)! Uživajte u svojim privatnim FILMSKIM VEČERIMA na otvorenom. FRUŠKE TERME su udaljene samo nekoliko minuta.\r\nProstorija\r\nU prizemlju se nalazi soba sa bračnim krevetom (za 2 osobe), velika dnevna soba sa sofom na razvlačenje koja je ocenjena kao sofa na razvlačenje za svaku noć (za 2 osobe), koja je jednako udobna kao i druga 2 kreveta. Na gornjem spratu se nalazi velika soba sa bračnim krevetom (za 2 osobe), radni sto sa kancelarijskom stolicom. Najbolje i omiljeno mesto u brvnari je LEŽALJKA ZA DRUŽENJE!\r\nPoželećete da tamo gore popijete čašu vina, popijete jutarnju kafu, uradite domaći zadatak na laptopu... dok uživate u ovim neverovatnim pogledima na prirodu! Uveče vas pozivamo da uživate u svojim privatnim filmskim večerima na otvorenom! Obezbeđujemo vam projektor i platno, tako da možete uživati u svojim omiljenim filmovima, muzici... napolju, pored kamina ili na balkonu!\r\n\r\n(ZADNJE) DVORIŠTE...\r\n\r\nSadrži balkon od 18m2 sa stolicama i stolovima, TAKOĐE, označen prostor za sedenje sa KAMINOM i prirodnim panjevima. Kamin, osim što se koristi samo za grejanje i druženje pored vatre, označen je tako da na njemu možete praviti roštilj i jelo koje se zove KOTLIĆ (tradicionalni srpski način pripreme svinjskog/goveđeg čorbe u ovom posebnom loncu, koji će biti spreman za upotrebu). U njemu se prave i najbolje riblje čorbe. Spoljna LEŽALJKA je tu za vas, da se družite sa knjigom, čašom vina, piva... ili samo sami sa sobom! Postoji 18 voćaka sa kojih možete brati sveže i organsko voće (kada je u sezoni), kao što su šljive, trešnje, kajsije, dunje i orasi.\r\nPristup za goste\r\nCela parcela od 2000 m2, na 3 nivoa!!\r\nOstale stvari koje treba napomenuti\r\nMnogo planinarskih i biciklističkih staza širom Nacionalnog parka. Mnogo manastira, vinarija, mesta za branje pečuraka i bilja, restorana... Odlični hoteli i bazeni Fruške terme, na samo nekoliko minuta udaljenosti!\r\nRASPITAJTE SE O NAŠIM CENAMA JEDNONOĆNOG BORAVKA!",
+  "contact": "0678987755",
+  "summerPrice": 187,
+  "winterPrice": 160,
+  "lat": 45.122,
+  "long": 9.792,
+  "coverImage": "1753785895407-Image 112.jpeg",
+  "gallery": [
+    "1753785895409-Image 113.jpeg",
+    "1753785895411-Image 114.jpeg",
+    "1753785895412-Image 115.jpeg",
+    "1753785895412-Image 116.jpeg",
+    "1753785895413-Image 117.jpeg",
+    "1753785895414-Image 118.jpeg",
+    "1753785895414-Image 119.jpeg",
+    "1753785895415-Image 120.jpeg",
+    "1753785895416-Image 121.jpeg",
+    "1753785895421-Image 122.jpeg"
+  ],
+  "avgRating": 0,
+  "blocked": false,
+  "blockedUntil": null
+}]

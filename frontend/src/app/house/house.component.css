@@ -1,0 +1,173 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+}
+
+.number,h4,h2,h5,h6{
+    margin: 0;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #aec2b0;
+    border-radius: 5px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.house-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1024px;
+}
+
+#res{
+    width: 200px;
+}
+
+.user{
+    width: 48px;
+}
+
+
+.star{
+    width: 12px;
+    height: auto;
+}
+
+.rating{
+    display: flex;
+}
+
+.commUp{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.comment{
+    max-width: 300px;
+}
+
+.comments{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 64px;
+    margin-top: 16px;
+}
+
+ #map{
+    width: 100%;
+    height: 350px;
+    z-index: 0;
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    margin: 16px 0px;
+}
+
+.gallery-image{
+    height: 200px;
+    width: 100%;
+    aspect-ratio: 5/4;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.gallery-image:hover{
+  transform: scale(1.05);
+}
+
+.full-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.647);
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.full-image{
+    max-width: 85vw;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.x{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 48px;
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.arrow{
+    position: fixed;
+    top: 50%;
+    font-size: 48px;
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.left{
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.right{
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 1200px){
+    .comments{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .comments{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .gallery{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .comments{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

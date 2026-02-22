@@ -1,0 +1,40 @@
+admin:
+    admin
+    Admin123!
+
+
+turisti:
+    marija
+    mStakic1$
+
+    nikolajov
+    joVVn@25
+
+    jovana_jovic
+    jOv!97jOv
+
+    jeca81
+    Jecka81%
+
+    milos
+    mIloss5#
+
+    dejan_deaktiviran
+    dEjan#77
+
+    bogdan_08
+    bOki&08
+
+
+vlasnici:
+    marko
+    mA!rko2
+
+    ana_petrovic
+    aNaNa20%
+
+    milica__
+    Mica92!
+
+    stefko86
+    steFKO@86

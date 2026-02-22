@@ -1,0 +1,10 @@
+<div class="wrap-to-center content">
+    <form class="form-container">
+        <img src="logo.png" id="logo">
+        <input type="text" name="username" [(ngModel)]="username" class="form-input" placeholder="Korisnicko ime">
+        <input type="password" name="password" [(ngModel)]="password" class="form-input" placeholder="Lozinka">
+        <button (click)="login()" class="submit">Login</button>
+        <span class="have-account" (click)="goToRegister()">Registrujte se</span>
+        <span class="error">{{error}}</span>
+    </form>
+</div>

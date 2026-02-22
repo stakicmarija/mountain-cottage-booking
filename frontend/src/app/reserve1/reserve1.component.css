@@ -1,0 +1,36 @@
+#reserve1-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 48px;
+    max-width: 768px;
+}
+
+.next{
+    width: 180px;
+    justify-self: center;
+}
+
+.alone{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.cntBtn{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aec2b0;
+    color: #aec2b0;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.who{
+    margin-right: 12px;
+}

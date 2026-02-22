@@ -1,0 +1,53 @@
+h2,h4,h5{
+    margin: 0;
+}
+
+#edit-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+
+input{
+    border: 1px solid #aec2b0;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    height: 18px;
+    width: 300px;
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+textarea::placeholder{
+    color: #cad7cb;
+}
+
+ .prices{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 0;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.alone{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media only screen and (max-width: 1024px){
+    #edit-container{
+       display: flex;
+       flex-direction: column;
+       gap: 32px;
+    }
+}

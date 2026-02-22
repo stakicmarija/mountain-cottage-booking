@@ -1,0 +1,21 @@
+<div class="content">
+    <div id="my-houses-container">
+        <h2 class="alone">Vikendice</h2>
+        @for(house of houses; track $index){
+        <div [class]="house.blocked ? 'house badReview' : 'house'">
+            <img [src]="'http://localhost:4000/uploads/' + house.coverImage" class="houseImg">
+            <span class="title">{{house.name}}</span >
+            <span>{{house.place}}</span>
+            <div class="editDelete">
+                <img src="edit.png" class="edit" (click)="edit(house._id)">
+                <img src="delete.png" class="delete" (click)="delete(house._id)">
+            </div>
+            @if(house.blocked) { <span class="error">Blokirane rezervacije na 48h</span> }
+        </div>
+        }
+    </div>
+    <hr class="alone">
+    <div class="wrap-to-center">
+        <app-add></app-add>
+    </div>
+</div>

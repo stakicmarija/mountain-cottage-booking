@@ -1,0 +1,50 @@
+<div class="wrap-to-center">
+<div class="content form-container" id="reserve1-container">
+    <h2 class="alone">Podaci o rezervaciji</h2>
+    <mat-form-field>
+        <mat-label>Datum od</mat-label>
+        <input matInput [matDatepicker]="picker1" [(ngModel)]="dateFrom" name="dateFrom" [min]="minDate" (dateChange)="onDateFromChange()" />
+        <mat-datepicker-toggle matIconSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+        <mat-hint>DD/MM/GGGG</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Datum do</mat-label>
+        <input matInput [matDatepicker]="picker2" [(ngModel)]="dateTo" name="dateTo" [min]="getMinDateTo()" />
+        <mat-datepicker-toggle matIconSuffix [for]="picker2"></mat-datepicker-toggle>
+        <mat-datepicker #picker2></mat-datepicker>
+        <mat-hint>DD/MM/GGGG</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Vreme dolaska</mat-label>
+        <input matInput type="time"  [(ngModel)]="timeFrom" name="timeFrom">
+        <mat-hint>OD 14 DO 20</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Vreme odlaska</mat-label>
+        <input matInput type="time" [(ngModel)]="timeTo" name="timeTo">
+        <mat-hint>OD 6 DO 10</mat-hint>
+    </mat-form-field>
+
+    <div class="counter">
+        <p class="who">Odrasli</p>
+        <button class="cntBtn circle" (click)="adultsMinus()">-</button>
+        <p>{{adults}}</p>
+        <button class="cntBtn circle" (click)="adultsPlus()">+</button>
+    </div>
+
+    <div class="counter">
+        <p class="who">Deca</p>
+        <button class="cntBtn circle" (click)="childrenMinus()">-</button>
+        <p>{{children}}</p>
+        <button class="cntBtn circle" (click)="childrenPlus()">+</button>
+    </div>
+
+    <button (click)="next()" class="alone submit next">Sledeci korak</button>
+    <span class="error alone">{{error}}</span>
+
+</div>
+</div>

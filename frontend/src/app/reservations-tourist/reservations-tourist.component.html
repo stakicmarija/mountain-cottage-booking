@@ -1,0 +1,77 @@
+<div class="content" id="reservation-container">
+    <div class="current">
+        <div class="reservations">
+            <h2 class="title">Trenutne rezervacije</h2>
+            @for(r of activeRes; track $index){
+            <div class="reservation">
+                <img [src]="'http://localhost:4000/uploads/' + r.houseRef?.coverImage" class="houseImg">
+                <span class="houseName">{{r.houseRef?.name}}</span>
+                <span>{{r.houseRef?.place}}</span>
+                <span class="date">{{r.dateFrom | date:'dd.MM.yyyy.'}} - {{r.dateTo | date:'dd.MM.yyyy.'}} </span>
+                @if(r.approved == 'approved'){
+                    <span class="date">Odobreno</span>
+                }@if(r.approved == 'rejected'){
+                    <span class="date">Odbijeno</span>
+                    <span class="date">Poruka vlasnika: {{r.rejection}}</span>
+                }@if(r.approved == ''){
+                    <span class="date">Čeka odobrenje vlasnika</span>
+                }
+                @if(!(r.approved == 'rejected') && canCancel(r.dateFrom)){
+                    <span class="cancel" (click)="cancel(r._id)">Otkazi rezervaciju</span>
+                }
+            </div>
+            }
+    </div>
+    <hr>
+    <div class="archive">
+        <div class="reservations">
+            <h2 class="title">Prethodne rezervacije</h2>
+
+            @for(r of pastRes; track $index){
+            <div class="reservation">
+                <img [src]="'http://localhost:4000/uploads/' + r.houseRef?.coverImage" class="houseImg">
+                <span class="houseName">{{r.houseRef?.name}}</span>
+                <span>{{r.houseRef?.place}}</span>
+                <span class="date">{{r.dateFrom | date:'dd.MM.yyyy.'}} - {{r.dateTo | date:'dd.MM.yyyy'}} </span>
+            @if(r.approved == "approved"){
+                @if(r.rating == 0){
+                    @if(r._id !== selectedRatingId){
+                        <button class="submit" (click)="toggleShowRating(r._id)">Oceni</button>
+                    }
+
+                    @if(r._id == selectedRatingId){
+                    <div class="rate">
+                        <div class="stars">
+                            <img [src]="rating[r._id] < 1 ? 'star.png' : 'starYellow.png'" class="starRating" (click)="setRating(1, r._id)">
+                            <img [src]="rating[r._id] < 2 ? 'star.png' : 'starYellow.png'" class="starRating" (click)="setRating(2, r._id)">
+                            <img [src]="rating[r._id] < 3 ? 'star.png' : 'starYellow.png'" class="starRating" (click)="setRating(3, r._id)">
+                            <img [src]="rating[r._id] < 4 ? 'star.png' : 'starYellow.png'" class="starRating" (click)="setRating(4, r._id)">
+                            <img [src]="rating[r._id] < 5 ? 'star.png' : 'starYellow.png'" class="starRating" (click)="setRating(5, r._id)">
+                        </div>
+
+                        <textarea rows="5" placeholder="Komentar" name="comment" [(ngModel)]="comment"></textarea>
+                        <div class="choice">
+                            <button class="submit" (click)="rate(r._id, r.houseId)">Potvrdi</button>
+                            <button class="cancelGreen" (click)="toggleShowRating(r._id)">Odustani</button>
+                        </div>
+                        <span class="error">{{error}}</span>
+                    </div>
+                    }
+                }
+                @else{
+                <div class="rating">
+                    <h5>{{r.rating}}</h5>
+                    <img src="starYellow.png" class="star">
+                </div>
+
+                <span class="opinion">{{r.comment}}</span>
+                }
+            }
+            @else{
+                <span class="date">Nije realizovano</span>
+                @if(r.rejection){
+                <span class="date">Poruka vlasnika: {{r.rejection}}</span>}
+            }
+            </div>}
+    </div>
+</div>

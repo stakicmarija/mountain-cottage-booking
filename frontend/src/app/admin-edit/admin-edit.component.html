@@ -1,0 +1,11 @@
+
+@if(user){
+    <app-profile [user]="user"></app-profile>
+}
+
+<div class="wrap-to-center">
+    <div id="lower">
+        <button class="cancelRed profileButton" (click)="deactivate()">Deaktiviraj nalog</button>
+        <p class="error">{{error}}</p>
+    </div>
+</div>       

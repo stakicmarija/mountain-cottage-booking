@@ -1,0 +1,16 @@
+<div class="content" id="stats">
+  @for (item of chartData; track item.house._id) {
+    <div class="house">
+      <h2>{{item.house.name}}</h2>
+      
+        <div class="chart-container">
+          <canvas [id]="'monthly-chart-' + item.house._id"></canvas>
+        </div>
+        
+        <div class="chart-container">
+          <canvas [id]="'weekday-chart-' + item.house._id"></canvas>
+        </div>
+
+    </div>
+  }
+</div>
